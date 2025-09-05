@@ -14,9 +14,30 @@ Purpose of project: To illustrate the basics of fields, constructors, and method
 How to start this project: Create one or more TicketMachine objects.
 Part II: Naive ticket machine:
 2. The value that is returned when I got the machine's balance after it printed the ticket was 0. In fact, I put 500 and after printing it went back to 0. 
-3. The number in getBalance kept increasing as I was adding money. After I printed a ticket and there was 1425 in my getBalance, when I went back in was 0 again. I am assuming it didn't refund me. It still pprinted a ticket when i only put 200 and there was only 200 in my getBalance.
+3. The number in getBalance kept increasing as I was adding money. After I printed a ticket and there was 1425 in my getBalance, when I went back in was 0 again. I am assuming it didn't refund me. It still pprinted a ticket when I only put 200 and there was only 200 in my getBalance.
 5. The only that is different is the price number. For example instead of saying 1000 cents, it says 30 cents.
 6. I think it will look like this: public class Student and public class LabClass
 7. It does matter how we write it because it showed red lines and the name of the changed to public TicketMachine. I think it does show what is wrong. We see red on the side where the numbers are showing which lines are wrong. 
 8. It is possible to take out the public.
 9. When we take the word class it shows error when I try to compile it. 
+10. Fields: private int price, private int balance and private int  total
+Constructor: public TicketMachine (int cost)
+Methods:getPrice, getBalance, insertMoney and printTicket
+11. The constructor does not have a return type like int, string and void. The constructor will be called automatically after the object is created. While the method has to be done manually after the object is created. 
+12. The type of the count field is int. The type of the representative field is Student. The type of the host field is Server.
+13. The names of the fiels are alive, tutor and game.
+14. 
+15. Yes, it does matter. Everytime I would change it it would show error. No, it didnt because nothing changed. I just red lines when i would change the ordering. 
+16. It is always necessary because if you dont pput any it will show error beside it.
+17. private int status;
+18. Student class
+19. Two parameters which are String and double.
+20. Yes or else the values would be lost after the constructor ends. The type will be String and the name will be title but I am pretty sure that it could be named something else since it doesn't have to match and the pther type will be double and its name will be price most likely to make it easier. 
+21.public Pet(String petsName)
+{
+ pet = petsName
+}
+
+ 
+
+
