@@ -76,3 +76,4 @@ public class TicketMachine
         balance = 0;
     }
 }
+
