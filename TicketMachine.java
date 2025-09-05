@@ -17,7 +17,7 @@ public class TicketMachine
     private int balance;
     // The total amount of money collected by this machine.
     private int total;
-
+    private int discount;
     private int score;
     /**
      * Create a machine that issues tickets of the given price.
@@ -29,6 +29,10 @@ public class TicketMachine
         price = cost;
         balance = 0;
         total = 0;
+    }
+    public void discount(int amount)
+    {
+    discount = price - amount;
     }
     public int getTotal()
     {
@@ -46,7 +50,7 @@ public class TicketMachine
      * Return the amount of money already inserted for the
      * next ticket.
      */
-    public int getAmount()
+    public int getBalance()
     {
         return balance;
     }
