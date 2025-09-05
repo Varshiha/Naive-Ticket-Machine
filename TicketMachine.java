@@ -23,6 +23,11 @@ public class TicketMachine
     private boolean alive;
     private int prompt;
     private int showPrice;
+    private int empty;
+    public void empty()
+    {
+       total = 0; 
+    }
     
     public void showPrice()
     {
