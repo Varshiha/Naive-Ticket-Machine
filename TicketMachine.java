@@ -36,7 +36,7 @@ public class TicketMachine
      */
     public TicketMachine(int price)
     {
-        this.price = price;
+        price = price;
         balance = 0;
         total = 0;
     }
