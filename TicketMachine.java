@@ -50,7 +50,14 @@ public class TicketMachine
      */
     public TicketMachine()
     {
-        price = 1000;
+        price = 2678;
+        balance = 0;
+        total = 0;
+    }
+    
+    public TicketMachine(int cost)
+    {
+        price = cost;
         balance = 0;
         total = 0;
     }
