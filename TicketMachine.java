@@ -23,18 +23,22 @@ public class TicketMachine
     private boolean alive;
     private int prompt;
     private int showPrice;
+    
     public void showPrice()
     {
         System.out.println("The price of a ticket is " + price + " cents." );
     }
+    
     public void prompt()
     {
         System.out.println("Please insert the correct amount of money.");
     }
+    
     public void setAlive(boolean alive)
     {
         this.alive = alive;
     }
+    
     public void setAge (int currentAge){
       age= currentAge;
     }
@@ -50,14 +54,17 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
+    
     public void discount(int amount)
     {
-    discount = price - amount;
+       discount = price - amount;
     }
+    
     public int getTotal()
     {
         return total;
     }
+    
     /**
      * Return the price of a ticket.
      */
@@ -94,7 +101,7 @@ public class TicketMachine
         System.out.println("##################");
         System.out.println("# The BlueJ Line");
         System.out.println("# Ticket");
-        System.out.println("# price cents");
+        System.out.printf("# %d cents. %n", price);
         System.out.println("##################");
         System.out.println();
 
@@ -104,8 +111,8 @@ public class TicketMachine
         balance = 0;
     }
     public void increaseScore(int points)
-{
-score = score + points;
-} 
+    {
+    score = score + points;
+    } 
 }
 
