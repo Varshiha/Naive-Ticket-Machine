@@ -37,6 +37,14 @@ Methods:getPrice, getBalance, insertMoney and printTicket
 {
  pet = petsName
 }
+23. The method names are different in the headers and in the bodies each methods return a different field one is price and the other is balance.
+24. How much money do I have saved up in my account?
+25. It doesn't need to be changed becuase the fiel associated with doesn't have to have the same name. So the name of an accessor method does not have to math with the field name it returns. 
+27.It says that there is a missing return statement.
+28 Price's type is int when Print's type is void meaning it won't return a value.
+29. insertMoney does have return statements to update whats in the get bslsnce but the print ticket does not because it prints it and then stops running.
+
+
 
  
 
