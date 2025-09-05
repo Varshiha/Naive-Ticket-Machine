@@ -19,6 +19,11 @@ public class TicketMachine
     private int total;
     private int discount;
     private int score;
+    private int age;
+    public void setAge (int currentAge){
+      age= currentAge;
+    }
+    
     /**
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
