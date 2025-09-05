@@ -20,6 +20,11 @@ public class TicketMachine
     private int discount;
     private int score;
     private int age;
+    private boolean alive;
+    public void setAlive(boolean alive)
+    {
+        this.alive = alive;
+    }
     public void setAge (int currentAge){
       age= currentAge;
     }
