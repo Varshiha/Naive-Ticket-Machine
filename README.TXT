@@ -26,7 +26,7 @@ Methods:getPrice, getBalance, insertMoney and printTicket
 11. The constructor does not have a return type like int, string and void. The constructor will be called automatically after the object is created. While the method has to be done manually after the object is created. 
 12. The type of the count field is int. The type of the representative field is Student. The type of the host field is Server.
 13. The names of the fiels are alive, tutor and game.
-14. 
+14. Classes are Student, Server, Person and Game. 
 15. Yes, it does matter. Everytime I would change it it would show error. No, it didnt because nothing changed. I just red lines when i would change the ordering. 
 16. It is always necessary because if you dont pput any it will show error beside it.
 17. private int status;
@@ -43,6 +43,21 @@ Methods:getPrice, getBalance, insertMoney and printTicket
 27.It says that there is a missing return statement.
 28 Price's type is int when Print's type is void meaning it won't return a value.
 29. insertMoney does have return statements to update whats in the get bslsnce but the print ticket does not because it prints it and then stops running.
+32. It is a mutator because an accessor always has a return type that is not void. We would do a method called addCredits. The value would change to its credit if we do this with a Student Object. 
+36. The number is 0.
+37.  My cat has green eyes.
+39. Instead of giving the price of the ticket it says "pricecents"
+40. It says # price cents.
+42. It shows the different prices. I am pretty sure it is because it takes the price we wrote when we add a new TicketMachine.
+43. It does print the same output as the one I replaced (println to printf). %d means insert the next argument as an integer value and %n means end the line at this point.
+
+
+
+
+
+
+
+
 
 
 
