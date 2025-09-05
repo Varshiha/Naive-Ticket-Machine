@@ -21,6 +21,11 @@ public class TicketMachine
     private int score;
     private int age;
     private boolean alive;
+    private int prompt;
+    public void prompt()
+    {
+        System.out.println("Please insert the correct amount of money.");
+    }
     public void setAlive(boolean alive)
     {
         this.alive = alive;
