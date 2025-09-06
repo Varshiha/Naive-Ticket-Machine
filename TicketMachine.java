@@ -16,34 +16,35 @@ public class TicketMachine
     // The amount of money entered by a customer so far.
     private int balance;
     // The total amount of money collected by this machine.
-    private int total;
-    private int discount;
-    private int score;
-    private int age;
-    private boolean alive;
-    private int prompt;
-    private int showPrice;
-    private int empty;
+    private int total; 
+    private int discount; // Question 33
+    private int score; // Question 31
+    private int age; // Question 34
+    private boolean alive;// Question 35
+    private int prompt; // Question 38 
+    private int showPrice; // Question 41
+    private int empty; // Question 46
+    // Question 46
     public void empty()
     {
        total = 0; 
     }
-    
+    // Question 41
     public void showPrice()
     {
         System.out.println("The price of a ticket is " + price + " cents." );
     }
-    
+    // Question 38
     public void prompt()
     {
         System.out.println("Please insert the correct amount of money.");
     }
-    
+    // Question 35
     public void setAlive(boolean alive)
     {
         this.alive = alive;
     }
-    
+    // Question 34
     public void setAge (int currentAge){
       age= currentAge;
     }
@@ -66,7 +67,7 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
-    
+    // Question 33
     public void discount(int amount)
     {
        discount = price - amount;
@@ -122,6 +123,7 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    // question 31
     public void increaseScore(int points)
     {
     score = score + points;
